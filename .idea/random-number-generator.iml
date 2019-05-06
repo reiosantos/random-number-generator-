@@ -4,5 +4,13 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="@types/babel-core" level="application" />
+    <orderEntry type="library" name="@types/enzyme" level="application" />
+    <orderEntry type="library" name="@types/enzyme-adapter-react-16" level="application" />
+    <orderEntry type="library" name="@types/eslint" level="application" />
+    <orderEntry type="library" name="@types/eslint-plugin-prettier" level="application" />
+    <orderEntry type="library" name="@types/eslint-scope" level="application" />
+    <orderEntry type="library" name="@types/express" level="application" />
+    <orderEntry type="library" name="@types/jest" level="application" />
   </component>
 </module>
