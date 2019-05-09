@@ -83,5 +83,5 @@ function onListening() {
  */
 
 server.listen(port);
-server.on('error', onError);
+server.on('error.html.twig', onError);
 server.on('listening', onListening);
