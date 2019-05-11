@@ -41,7 +41,7 @@ const sortedNumbers = (req, res) => {
 const generateNumbers = (req, res) => {
 	const numbers = numberGenerator(10000);
 
-	const fd = fs.openSync('numbers.json', 'w', 0o777);
+	const fd = fs.openSync('./numbers.json', 'w', 0o777);
 
 	return fs.write(
 		fd,
