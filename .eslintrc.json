@@ -26,6 +26,9 @@
 		"no-tabs": "off",
 		"comma-dangle": [2, "never"],
 		"comma-spacing": [2, { "before": false, "after": true }],
-		"no-underscore-dangle": "off"
+		"no-underscore-dangle": "off",
+		"no-param-reassign": "off",
+		"no-plusplus": "off",
+		"no-bitwise": "off"
 	}
 }

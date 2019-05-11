@@ -1,0 +1,55 @@
+{% extends '../layout/index.html.twig' %}
+
+
+{% block content %}
+
+	{% if numbers and numbers|length > 0 %}
+
+		<div class="mdl-grid">
+
+			<div class="mdl-cell mdl-cell--12-col">
+				<a href="/generate/numbers/1"
+				   class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored
+				   mdl-color--teal mdl-js-ripple-effect"
+				>
+					{{ sortAsc }}
+				</a>
+				<a href="/generate/numbers/0"
+				   class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored
+				   mdl-color--blue-800 mdl-js-ripple-effect"
+				>
+					{{ sortDesc }}
+				</a>
+			</div>
+
+			<div class="mdl-cell mdl-cell--12-col main-list">
+
+				<ul class='mdl-list'>
+
+					{% for number in numbers %}
+
+						<li class="mdl-list__item">
+							<span>{{ loop.index }}.</span>
+							<div class="mdl-layout-spacer"></div>
+							<span>{{ number }}</span>
+						</li>
+
+					{% endfor %}
+
+				</ul>
+
+			</div>
+
+		</div>
+
+	{% elseif error is defined %}
+
+		<span class="mdl-typography--display-1 mdl-color-text--red-800">{{ error }}</span>
+
+	{% else %}
+
+		<span class="mdl-typography--display-1">There are no phone numbers, Generate Some</span>
+
+	{% endif %}
+
+{% endblock content %}
