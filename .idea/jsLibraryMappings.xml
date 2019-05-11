@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{@types/babel-core, @types/enzyme, @types/enzyme-adapter-react-16, @types/eslint, @types/eslint-plugin-prettier, @types/eslint-scope, @types/express, @types/jest}" />
+    <file url="PROJECT" libraries="{@types/babel-core, @types/chai, @types/cucumber, @types/cypress-axe, @types/enzyme, @types/enzyme-adapter-react-16, @types/eslint, @types/eslint-plugin-prettier, @types/eslint-scope, @types/express, @types/jest, @types/joi, @types/mocha, @types/sinon, @types/sinon-chai, @types/sinon-express-mock}" />
     <includedPredefinedLibrary name="Node.js Core" />
   </component>
 </project>

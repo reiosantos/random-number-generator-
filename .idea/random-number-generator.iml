@@ -11,6 +11,14 @@
     <orderEntry type="library" name="@types/eslint-plugin-prettier" level="application" />
     <orderEntry type="library" name="@types/eslint-scope" level="application" />
     <orderEntry type="library" name="@types/express" level="application" />
+    <orderEntry type="library" name="@types/mocha" level="application" />
+    <orderEntry type="library" name="@types/cucumber" level="application" />
+    <orderEntry type="library" name="@types/cypress-axe" level="application" />
     <orderEntry type="library" name="@types/jest" level="application" />
+    <orderEntry type="library" name="@types/joi" level="application" />
+    <orderEntry type="library" name="@types/chai" level="application" />
+    <orderEntry type="library" name="@types/sinon" level="application" />
+    <orderEntry type="library" name="@types/sinon-chai" level="application" />
+    <orderEntry type="library" name="@types/sinon-express-mock" level="application" />
   </component>
 </module>
